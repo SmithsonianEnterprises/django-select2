@@ -12,10 +12,7 @@ def django_select2_static(file):
 
 
 def get_select2_js_libs():
-    if DEBUG:
-        js_file = 'js/select2.js'
-    else:
-        js_file = 'js/select2.min.js'
+    js_file = 'js/select2.js'
     return (django_select2_static(js_file), )
 
 
