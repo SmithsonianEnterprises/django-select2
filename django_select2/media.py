@@ -18,11 +18,7 @@ def get_select2_js_libs():
 
 def get_select2_heavy_js_libs():
     libs = get_select2_js_libs()
-
-    if DEBUG:
-        js_file = 'js/heavy_data.js'
-    else:
-        js_file = 'js/heavy_data.min.js'
+    js_file = 'js/heavy_data.js'
     return libs + (django_select2_static(js_file), )
 
 
