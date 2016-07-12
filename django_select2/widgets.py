@@ -171,7 +171,7 @@ class Select2Mixin(object):
         """
         return """
                 <script type="text/javascript">
-                    jQuery10(function ($) {
+                    jQuery(function ($) {
                         %s
                     });
                 </script>
