@@ -252,5 +252,5 @@ if (!window['django_select2']) {
                 return val;
             }
         };
-    })(jQuery10 || jQuery);
+    })(jQuery);
 }
